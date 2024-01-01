@@ -1,0 +1,42 @@
+@import url(./style/header.css);
+@import url(./style/banner.css);
+@import url(./style/reset.css);
+@import url(./style/carrossel.css);
+@import url(./style/banner2.css);
+@import url(./style/carrossel2.css);
+@import url(./style/banner3.css);
+@import url(./style/banner4.css);
+@import url(./style/banner5.css);
+@import url(./style/footer.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+:root{
+  --color-background:#EBECEE;
+  --color-background-secundario: #F9F9F9;
+  --color-orange: #EB9B00;
+  --color-white: #FFF;
+  --color-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); 
+  --color-blue: #002F52;
+  --color-black: #000;
+  --color-gray: #858585;
+  --color-gray-claro: #474646;
+
+  
+   
+  --fonte-principal: 'Poppins', sans-serif;
+  --fonte-secundaria: 'Josefin Sans', sans-serif;
+
+  font-size: 62.5%;
+
+}
+
+body {
+  background-color: var(--color-background);
+  height: 100%;
+}

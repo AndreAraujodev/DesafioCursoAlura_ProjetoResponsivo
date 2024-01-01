@@ -1,0 +1,97 @@
+.banner5 {
+  background-color: var(--color-white);
+  text-align: center;
+  padding: 0 2.4rem;
+}
+
+.banner5 h6 {
+  font-family: var(--fonte-principal);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: var(--color-azul-degrade);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2.4rem 2.4rem 0;
+
+}
+
+.banner5 p {
+  font-family: var(--fonte-principal);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background: var(--color-azul-degrade);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0.8rem 2.4rem 0;
+
+}
+
+.banner5 input {
+  border-radius: 2.4rem;
+  border: 1px solid var(--Teste, #002F52);
+  margin: 3.5rem 0;
+  padding: 1.5rem 2.4rem;
+  width: 100%;
+  color: var(--color-blue);
+ 
+}
+
+.contato::placeholder {
+  font-family: var(--fonte-principal);
+  font-size: 1.6rem;
+  color: var(--color-blue);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url(../assets/Email.svg);
+  background-repeat: no-repeat;
+  background-position: 0.2rem;
+  padding: 3.0rem 3.4rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .banner5 {
+    display: flex;
+    gap: 2.4rem;
+    padding: 2rem 12rem 4rem;
+    align-items: center;
+    
+  }
+
+  .banner5_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40vw;
+    text-align: start;
+   
+  }
+
+  .banner5_texto h6 {
+    font-size: 2.4rem;
+}
+
+  .banner5_texto p {
+    margin-bottom: 2rem;
+
+  }
+
+  .banner5_email{
+    width: 45%;
+    
+  }
+
+  @media screen and (min-width: 1728px) {
+    .banner5 {
+      padding: 2rem 20vw;
+    }
+  }
+
+}
